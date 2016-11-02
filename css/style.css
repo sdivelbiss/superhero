@@ -1,0 +1,135 @@
+
+
+@font-face {
+	font-family: 'badaboom';
+	src: url(../badaboom.ttf);
+}
+/*body{
+  background: #141414;
+  overflow:hidden;
+}
+canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: -10;
+}*/
+/*body {
+	background-image: url(../img/bg2.jpg);
+}*/
+html { 
+  background: url(../img/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+ .container {
+ 	margin-top: -75px;
+ 	margin-right: 55%;
+	margin-left: 8%;
+
+ }
+
+.textInfo h1 {
+	color: #213141 !important;
+	opacity: 1 !important;
+	font-family: 'badaboom';
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+
+ .textInfo, .input-group-lg {
+ 	text-align: center;
+ }
+
+ input {
+ 	width: 75%;
+ 	text-align: right;
+/* 	margin-right: 30%;
+*/ 	font-size: 35px;
+ 	opacity: .8;
+ 	padding: 5px;
+ 	z-index: 10;
+ 	/*make text input transparent*/
+ 	background: transparent;
+ 	border: none;
+/* 	color: #fff;
+*/ 	letter-spacing: 5px;
+ 	text-transform: uppercase;
+ 	font-family: 'badaboom';
+/* 	color: transparent;
+*/	text-shadow: 0 0 0 #213141;
+ }
+
+
+input:focus {
+    outline: none;
+    text-align: center
+}
+
+ ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    text-transform: none;
+    color: #213141;
+    font-family: 'arial';
+    letter-spacing: 0;
+    font-size: 20px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       text-transform: none;
+       color: #213141;
+       font-family: 'arial';
+    	letter-spacing: 0;
+    	font-size: 20px;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+       text-transform: none;
+       color: #213141;
+       font-family: 'arial';
+    	letter-spacing: 0;
+    	font-size: 20px;
+
+}
+
+
+ .hidden {
+ 	display: none;
+ }
+
+ #display {
+ 	text-align: center;
+/* 	background-color: #fff;
+*//* 	background: rgba(40, 40, 40, .95);
+*/ 	border-radius: 30px;
+ 	z-index: 10;
+ 	font-family: 'badaboom';
+/* 	color: #3a556f !important;
+*/
+ }
+
+ h1 {
+ 	color: #1c2d3a;
+ 	text-align: center;
+ 	opacity: 1 ;
+ 	z-index: 10;
+ }
+#name {
+ 	color: #1c2d3a !important;
+ 	font-size: 50px;
+ }
+
+ img {
+ 	height: 280px;
+ 	width: 280px;
+ 	opacity: 1 !important;
+ 	z-index: 10;
+
+ }
+
+ h3 {
+ 	color: #fff;
+}
