@@ -1,4 +1,5 @@
 
+
 // --------------------------- My JavaScript -----------------------------------
 
 var characterList = [
@@ -8,12 +9,12 @@ var characterList = [
         answer: "a"
       },
       {
-        name: "Captin America",
+        name: "Captain America",
         image: "img/captinamerica1.png",
         answer: "b"
       },
       {
-        name: "Captin America",
+        name: "Captain America",
         image: "img/captinamerica1.png",
         answer: "o"
       },
@@ -135,22 +136,21 @@ var characterList = [
       {
         name: "Wolverine",
         image: "img/wolverine1.png",
-        answer: "x"
+        answer: "x" 
       },
       {
         name: "Wolverine",
         image: "img/wolverine1.png",
         answer: "f"
-      }
-]
-
-var easterEgg = [
-      {
-        name: "That's a terrible name, please try again",
+      },
+        {
+        name: "That's a terrible name",
         image: "img/trump1.png",
         answer: "trump"
       }
 ]
+
+
 
 document.getElementById("villian").addEventListener("keypress", enterKey);
 
@@ -167,22 +167,59 @@ function getInfo() {
   var superheros = firstLetter;
   
   for (var i = 0; i < characterList.length; i++) {
-      if (superheros == characterList[i].answer) {
+      if (superheros == characterList[i].answer || lowerCase == characterList[28].answer && i == 28) {
         document.getElementById("name").textContent = characterList[i].name
         document.getElementById("image").src = characterList[i].image
         document.getElementById("display").className = "display"
       }
-      
+
+     
     }  
-    for (var i = 0; i < easterEgg.length; i++) {
-      if (villian == easterEgg[i].answer) {
-        document.getElementById("name").textContent = easterEgg[i].name
-        document.getElementById("image").src = easterEgg[i].image
-        document.getElementById("display").className = "display"
-      }
-      
-    }  
+     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
